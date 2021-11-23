@@ -7,7 +7,7 @@
 puts '1'.to_s
 #数値
 puts 1.to_s
-puts 1.to_s()#引数のカッコは省略可
+puts 1.to_s()#引数なしの場合、カッコは上のように省略可
 
 #nil
 puts nil.to_s
@@ -17,3 +17,6 @@ puts true.to_s
 puts false.to_s
 #正規表現
 puts /\d+/.to_s
+#数値を16進数の文字列に変換する
+puts 10.to_s(16)
+puts 10.to_s 16
