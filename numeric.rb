@@ -33,6 +33,6 @@ puts 1 + '10'.to_i
 
 number = 3
 #puts 'Number is' + number 数値と文字列を加算することはできない
-puts 'Number is' +　number.to_s
+puts 'Number is' + number.to_s
 
 puts "Number is #{number}"
