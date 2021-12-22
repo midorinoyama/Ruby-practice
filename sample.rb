@@ -1,4 +1,12 @@
-puts 1 + 2
+num = 1
+num01 = 2
+num_01 = 3
+#01num = 4　変数名の頭に数字と、ハイフンはエラーになる
+#num-01 = 5
+
+puts num
+puts num01
+puts num_01
 
 a = 'Hello, world'
 puts a
